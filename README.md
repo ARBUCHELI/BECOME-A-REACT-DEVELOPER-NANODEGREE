@@ -83,22 +83,27 @@ SOLUTION:
 Use the provided music data array and the .map() method to create a new array that contains items in the format:
 
 <album-name> by <artist> sold <sales> copies
+  
 Store the new array in an albumSalesStrings array. So the first item in the albumSalesStrings array should be "25 by Adele sold 1731000 copies"
 
-```
-/* Using .map()
- *
- * Using the musicData array and .map():
- *   - return a string for each item in the array in the following format
- *     <album-name> by <artist> sold <sales> copies
- *   - store the returned data in a new albumSalesStrings variable
- *
- * Note:
- *   - do not delete the musicData variable
- *   - do not alter any of the musicData content
- *   - do not format the sales number, leave it as a long string of digits
- */
 
+Using .map()
+ 
+Using the musicData array and .map():
+
+  * return a string for each item in the array in the following format
+  
+  <album-name> by <artist> sold <sales> copies
+  
+  * store the returned data in a new albumSalesStrings variable
+ 
+ Note:
+  * do not delete the musicData variable
+  * do not alter any of the musicData content
+  * do not format the sales number, leave it as a long string of digits
+ 
+
+```
 const musicData = [
     { artist: 'Adele', name: '25', sales: 1731000 },
     { artist: 'Drake', name: 'Views', sales: 1608000 },
@@ -121,19 +126,22 @@ console.log(albumSalesStrings);
 
 ### .filter() Quiz
 
-Use the provided music data array and the .filter() method to create a new array that only contains albums with names between 10 and 25 characters long. Store the new array in a variable called results.
+Use the provided music data array and the .filter() method to create a new array that only contains albums with names between 10 and 25 characters long. Store the new array
+in a variable called results.
 
-/* Using .filter()
+Using .filter()
  
  Using the musicData array and .filter():
-   - return only album objects where the album's name is
+ 
+   * return only album objects where the album's name is
      10 characters long, 25 characters long, or anywhere in between
-   - store the returned data in a new `results` variable
+   * store the returned data in a new `results` variable
  
    Note:
-   - do not delete the musicData variable
-   - do not alter any of the musicData content
- */
+   
+   * do not delete the musicData variable
+   * do not alter any of the musicData content
+ 
 
 ```
 const musicData = [
@@ -157,20 +165,22 @@ console.log(results);
 
 ### .filter() and .map() Quiz
 
-/* Combining .filter() and .map()
+Combining .filter() and .map()
  
   Using the musicData array, .filter, and .map():
-    - filter the musicData array down to just the albums that have 
+  
+    * filter the musicData array down to just the albums that have 
       sold over 1,000,000 copies
-    - on the array returned from .filter(), call .map()
-    - use .map() to return a string for each item in the array in the
+    * on the array returned from .filter(), call .map()
+    * use .map() to return a string for each item in the array in the
       following format: "<artist> is a great performer"
-    - store the array returned form .map() in a new "popular" variable
+    * store the array returned form .map() in a new "popular" variable
  
   Note:
-    - do not delete the musicData variable
-    - do not alter any of the musicData content
- */
+  
+    * do not delete the musicData variable
+    * do not alter any of the musicData content
+ 
 
 ```
 const musicData = [

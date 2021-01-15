@@ -167,19 +167,17 @@ console.log(results);
 
 Combining .filter() and .map()
  
-  Using the musicData array, .filter, and .map():
+Using the musicData array, .filter, and .map():
   
-    * filter the musicData array down to just the albums that have 
-      sold over 1,000,000 copies
-    * on the array returned from .filter(), call .map()
-    * use .map() to return a string for each item in the array in the
-      following format: "<artist> is a great performer"
-    * store the array returned form .map() in a new "popular" variable
+* filter the musicData array down to just the albums that have sold over 1,000,000 copies
+* on the array returned from .filter(), call .map()
+* use .map() to return a string for each item in the array in the following format: "<artist> is a great performer"
+* store the array returned form .map() in a new "popular" variable
  
-  Note:
-  
-    * do not delete the musicData variable
-    * do not alter any of the musicData content
+Note:
+ 
+* do not delete the musicData variable
+* do not alter any of the musicData content
  
 
 ```

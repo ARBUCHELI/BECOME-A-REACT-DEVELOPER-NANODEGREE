@@ -135,6 +135,7 @@ Use the provided music data array and the .filter() method to create a new array
  *   - do not alter any of the musicData content
  */
 
+```
 const musicData = [
     { artist: 'Adele', name: '25', sales: 1731000 },
     { artist: 'Drake', name: 'Views', sales: 1608000 },
@@ -152,6 +153,7 @@ const musicData = [
 const results = musicData.filter(data => data.name.length >= 10 && data.name.length <=25);
 
 console.log(results);
+```
 
 
 

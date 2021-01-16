@@ -1,6 +1,6 @@
 # BECOME-A-REACT-DEVELOPER-NANODEGREE
 
-## This repository contains exercises from Become a React Developer Udacity's Nanodegree Program. 
+## This repository contains solutions of exercises from Become a React Developer Udacity's Nanodegree Program. 
 
 # REACT FUNDAMENTALS
 
